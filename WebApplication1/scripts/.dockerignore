@@ -1,0 +1,8 @@
+﻿*.log
+Migrations/
+.git
+Dockerfile
+scripts/**/*.sh
+scripts/**/*.yml
+scripts/nginx/
+!scripts/docker/entrypoint.sh

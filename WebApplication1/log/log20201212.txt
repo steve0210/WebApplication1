@@ -1,0 +1,36 @@
+2020-12-12 11:15:24.186 -06:00 [INF] Entity Framework Core 5.0.0 initialized 'BloggingContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-12-12 11:15:25.155 -06:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM blogs AS b)
+2020-12-12 11:15:25.243 -06:00 [INF] User profile is available. Using 'C:\Users\Steve\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-12 11:15:25.521 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-12 11:15:25.521 -06:00 [INF] Hosting environment: Development
+2020-12-12 11:15:25.521 -06:00 [INF] Content root path: C:\Users\Steve\source\repos\tmp\WebApplication1\WebApplication1
+2020-12-12 11:15:25.569 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:10244/weatherforecast  
+2020-12-12 11:15:25.599 -06:00 [INF] Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2020-12-12 11:15:25.623 -06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).
+2020-12-12 11:15:25.626 -06:00 [INF] Hello World
+2020-12-12 11:15:25.631 -06:00 [INF] Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.
+2020-12-12 11:15:25.683 -06:00 [INF] Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 54.2564ms
+2020-12-12 11:15:25.684 -06:00 [INF] Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2020-12-12 11:15:25.686 -06:00 [INF] HTTP GET /weatherforecast responded 200 in 110.4353 ms
+2020-12-12 11:15:25.690 -06:00 [INF] Request finished in 124.9631ms 200 application/json; charset=utf-8
+2020-12-12 11:17:11.928 -06:00 [INF] Entity Framework Core 5.0.0 initialized 'BloggingContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-12-12 11:17:12.722 -06:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM blogs AS b)
+2020-12-12 11:17:12.771 -06:00 [INF] User profile is available. Using 'C:\Users\Steve\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-12 11:17:12.916 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-12 11:17:12.923 -06:00 [INF] Hosting environment: Development
+2020-12-12 11:17:12.924 -06:00 [INF] Content root path: C:\Users\Steve\source\repos\tmp\WebApplication1\WebApplication1
+2020-12-12 11:17:12.950 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:10244/weatherforecast  
+2020-12-12 11:17:12.977 -06:00 [INF] Executing endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2020-12-12 11:17:13.001 -06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApplication1.WeatherForecast] Get() on controller WebApplication1.Controllers.WeatherForecastController (WebApplication1).
+2020-12-12 11:17:13.003 -06:00 [INF] Hello World
+2020-12-12 11:17:13.007 -06:00 [INF] Executing ObjectResult, writing value of type 'WebApplication1.WeatherForecast[]'.
+2020-12-12 11:17:13.039 -06:00 [INF] Executed action WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1) in 33.9247ms
+2020-12-12 11:17:13.040 -06:00 [INF] Executed endpoint 'WebApplication1.Controllers.WeatherForecastController.Get (WebApplication1)'
+2020-12-12 11:17:13.042 -06:00 [INF] HTTP GET /weatherforecast responded 200 in 86.2395 ms
+2020-12-12 11:17:13.047 -06:00 [INF] Request finished in 100.6992ms 200 application/json; charset=utf-8
